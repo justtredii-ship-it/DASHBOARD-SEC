@@ -1,0 +1,26 @@
+*{box-sizing:border-box;font-family:Inter,Arial,sans-serif}
+body{margin:0;background:#f4f7fb;color:#12305b;display:flex}
+.sidebar{width:260px;background:white;height:100vh;padding:25px;border-right:1px solid #ddd}
+.sidebar h2{font-size:18px}
+.sidebar p{font-size:12px;color:#777}
+.sidebar a{display:block;padding:14px;border-radius:10px;margin:7px 0;color:#52627a}
+.sidebar .active{background:#e5f0ff;color:#0068d9}
+main{flex:1;padding:25px}
+header{display:flex;justify-content:space-between;align-items:center}
+input{width:55%;padding:15px;border:1px solid #ddd;border-radius:12px}
+.profile{background:white;padding:12px 20px;border-radius:15px;display:flex;gap:12px;align-items:center}
+.avatar{background:#0568d8;color:white;border-radius:50%;padding:15px}
+.card,.metric{background:white;border-radius:18px;padding:22px;margin:15px 0;box-shadow:0 5px 18px #0000000d}
+.overview{display:flex;justify-content:space-between}
+.info{display:flex;gap:15px}
+.info div,.metric{padding:18px;background:#fafcff;border-radius:12px}
+.metrics{display:flex;gap:15px}
+.approved{background:#d8f7df;color:#16834b;padding:5px 12px;border-radius:20px}
+.progress{height:14px;background:#ddd;border-radius:20px}
+.progress div{height:100%;width:30%;background:#17b3a5;border-radius:20px}
+.job{border-left:5px solid #0b76d8}
+.job h3{margin-top:0}
+.tag{background:#dcecff;padding:5px 10px;border-radius:15px}
+.allowance{color:#16834b;font-weight:bold}
+button{background:#0568d8;color:white;border:0;padding:12px 18px;border-radius:10px}
+.completed{color:#8993a5;background:#edf0f4;line-height:2}
